@@ -16,14 +16,12 @@ export default class DemoComponent extends Component{
 
     homePage(e) {
     	this.setState({homeToggle: false});
-    	//this.props.history.push('/home');
     }
 
     backClick(e){
     	this.setState({
-    		moveHome: true
+    		homeToggle: true
     	})
-    	// this.props.history.push('/');
     }
 
     render() {

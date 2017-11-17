@@ -30,6 +30,8 @@ module.exports = {
         hot: true,
         // enable HMR on the server
 
+        port: process.env.PORT || 8081,
+
         contentBase: resolve(__dirname),
         // match the output path
 

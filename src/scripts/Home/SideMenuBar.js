@@ -13,10 +13,58 @@ export default class SideMenuBar extends Component{
 
     render() {
 
-
     	return (
 	        <div className="learning-Home-Page-sidebar">
-	        	<p>hai</p>
+	        	    <nav className="ment">
+            <ul>
+                <li>
+                    <a href="/sozdanie-internet-magazina.html">
+                        <i className="fa fa-home"></i>
+                        <span className="nav-text">
+                            Home
+                        </span>
+                    </a>
+                  
+                </li>
+                <li>
+                    <a href="/sozdanie-korporativnogo-sajta.html">
+                        <i className="fa fa-search"></i>
+                        <span className="nav-text">
+                           Chat Message
+                        </span>
+                    </a>
+                    
+                </li>
+                 <li>
+                    <a href="/sozdanie-medicinskogo-sajta.html">
+                        <i className="fa fa-cloud"></i>
+                        <span className="nav-text">
+                            Filter
+                        </span>
+                    </a>
+                    
+                </li>
+                <li>
+                    <a href="#">
+                        <i className="fa fa-trash"></i>
+                        <span className="nav-text">
+                            Manage
+                        </span>
+                    </a>
+                    
+                </li>
+                    <li>
+                    <a href="#">
+                        <i className="fa fa-plane"></i>
+                        <span className="nav-text">
+                            Location
+                        </span>
+                    </a>
+                    
+                </li>
+            </ul>
+        </nav>
+
 	        </div>
 	    );
     }
