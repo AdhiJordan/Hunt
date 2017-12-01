@@ -1,20 +1,60 @@
 .learning-Home-Page{
 	.paragraph{
 	font-size: 26px;
-	color: red;
+	color: white;
+}
+.sub-header{
+	height: 70px;
+	background-color: #000;
 }
 .title-list{
 	color: #fff;
     font-size: 16px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     padding-left: 30px;
+}
+.down-button{
+	color: #fff;
+	font-size: 24px;
+	margin-right: 20px;
+}
+.down-button:hover{
+	cursor: pointer;
+}
+.header-text-name{
+	font-size: 18px;
+    color: #fff;
+    padding-top: 30px;
+}
+.header-text-name:hover{
+	cursor: pointer;
+}
+.input-text:focus
+ { 
+ 	    outline: none;
+ 	 }
+.input-text{
+	    margin-top: 30px;
+    border: 3px solid #292622;
+    height: 40px;
+        padding-left: 40px;
+}
+.search-icon{
+	    position: absolute;
+    top: 30px;
+    width: 40px;
+    height: 40px;
+}
+.header-div-header{
+/*	padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 35px;*/
 }
 .title-list-sub{
 	color: #fff;
     font-size: 16px;
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     padding-left: 30px;
     border-bottom: 1px solid #292622;
     border-top: 1px solid #292622;
@@ -22,20 +62,71 @@
 .main-title{
 	font-size: 18px;
     color: red;
+    padding-bottom: 5px;
+}
+.topic-text {
+	    color: #fff;
+    font-size: 24px;
+    margin-top: 20px;
+}
+.sub-header-elements{
+    height: 70px;
+    position: absolute;
+    right: 20px;
+    margin-top: 1px;
+    border-bottom: 1px solid #292622;
+}
+
+.main-title:hover{
+	color: red;
+	text-decoration: none;
+}
+.card-pad{
+	width: 40%;
+	background-color: #fff;
+	margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.card-text{
+	min-height: 17vh;
+	background-color: #292622;
+}
+.p-text{
+	width: 300px;
+	color: #fff;
+	padding-top: 20px;
+	font-size: 18px;
+    letter-spacing: 4px;
 }
 .sidemenubar-border{
 	border: 1px solid #ddd;
 	min-height: 100vh;
 	background-color: #000;
-	padding-top: 20px;
+	padding-top: 45px;
     padding-bottom: 20px;
     cursor: pointer;
     max-height: 150px;
     overflow-y: scroll;
-    border: 14px solid #292622;
+    border: 7px solid #292622;
 }
 .working-border{
 	border: 1px solid #ddd;
+	min-height: 100vh;
+	background-color: #000;
+	padding-top: 20px;
+    padding-bottom: 20px;
+
+    max-height: 150px;
+    overflow-y: scroll;
+    border: none;
+}
+.sidemenubar-border::-webkit-scrollbar {
+  display: none;
+}
+.working-border{
 	min-height: 100vh;
 }
 
@@ -48,8 +139,17 @@
 }	
 }
 
-
-
+.title-list-sub:hover{
+	text-decoration: none;
+    background: linear-gradient(90deg, #000 98%, red 92%);
+}
+.main-title:hover{
+	color: #fff;
+	text-decoration: none;
+}
+.p-main-title{
+	color: #fff;
+}
 nav ul,nav li {margin:0;padding:0;outline:0;}
 .fa-2x {
 	font-size: 2em;
@@ -57,7 +157,7 @@ nav ul,nav li {margin:0;padding:0;outline:0;}
 nav .fa {
 	position: relative;
 	display: table-cell;
-	width: 100px;
+	width: 68px;
 	height: 36px;
 	text-align: center;
 	vertical-align: middle;
@@ -66,7 +166,7 @@ nav .fa {
 
 
 .ment:hover,nav.ment.expanded {
-	width: 330px;
+	width: 398px;
 	overflow:visible;
 }
 
@@ -91,8 +191,8 @@ nav .fa {
 
 .ment li {
 	position:relative;
-	padding-bottom: 20px;
-	width:260px;
+	width:398px;
+	padding-top: 20px;
 }
 
 .ment li>a {
@@ -157,8 +257,24 @@ nav .fa {
 color:#fff;
 background-color: #000;
     background: #000;
-    background: -webkit-linear-gradient(135deg,#000 30%,red 100%);
-    background: linear-gradient(135deg,#000 30%,red 100%);
+    background: -webkit-linear-gradient(135deg,#000 45%,red 100%);
+    background: linear-gradient(135deg,#000 45%,red 100%);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
